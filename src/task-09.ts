@@ -64,3 +64,4 @@ function getLastElement<T>(container: Container<T>): T {
 
 console.log(getLastElement(numberContainer))
 console.log(getLastElement(stringContainer))
+
