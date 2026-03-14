@@ -38,7 +38,7 @@ const numberContainer: Container<number> = {
 }
 
 console.log(numberContainer)
-console.log(numberContainer.addItem(6))
+numberContainer.addItem(6)
 console.log(numberContainer.getItem(numberContainer.items.length - 1))
 console.log(numberContainer)
 
@@ -53,7 +53,7 @@ const stringContainer: Container<string> = {
 }
 
 console.log(stringContainer)
-console.log(stringContainer.addItem('6'))
+stringContainer.addItem('6')
 console.log(stringContainer.getItem(stringContainer.items.length - 1))
 console.log(stringContainer)
 
